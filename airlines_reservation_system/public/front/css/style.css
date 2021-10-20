@@ -1,0 +1,367 @@
+@font-face {
+    font-family: "Sans Francisco";
+    src: url(//db.onlinewebfonts.com/c/8443350cb8ba19b550b9a1551da7a41f?family=San+Francisco+Text+Med)
+}
+
+@font-face {
+    font-family: "SF";
+    src: url(//db.onlinewebfonts.com/c/b9f4fba805372d012dc98a3bca4d5237?family=SF+UI+Display)
+}
+
+html,
+body,
+#vemaybay-app {
+    font-family: "SF" !important
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.spinner-border-sm {
+    width: 1.3rem !important;
+    height: 1.3rem !important;
+    border-width: .14em !important
+}
+
+.form-field__label {
+    font-size: .75rem;
+    -webkit-transform: translateY(-14px);
+    transform: translateY(-14px);
+    display: block;
+    font-weight: 400;
+    left: 0;
+    margin: 0;
+    padding: 18px 12px 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.4s;
+    width: 100%
+}
+
+.form-field__control {
+    background: #eee;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.form-field__bar {
+    border-bottom: 2px solid #b11adc;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: all 0.4s;
+    width: 1%
+}
+
+.form-field__input,
+.form-field__textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #999;
+    color: #333;
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 24px;
+    outline: 0;
+    padding: 0 12px 10px 12px;
+    width: 100%
+}
+
+    .form-field__input:-ms-input-placeholder ~ .form-field__label,
+    .form-field__textarea:-ms-input-placeholder ~ .form-field__label {
+        font-size: 1.2rem;
+        transform: translateY(0)
+    }
+
+    .form-field__input:placeholder-shown ~ .form-field__label,
+    .form-field__textarea:placeholder-shown ~ .form-field__label {
+        font-size: 1.2rem;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    .form-field__input:focus ~ .form-field__label,
+    .form-field__textarea:focus ~ .form-field__label {
+        color: #b11adc;
+        font-size: .75rem;
+        -webkit-transform: translateY(-14px);
+        transform: translateY(-14px)
+    }
+
+    .form-field__input:focus ~ .form-field__bar,
+    .form-field__textarea:focus ~ .form-field__bar {
+        border-bottom: 2px solid #b11adc;
+        -webkit-transform: scaleX(150);
+        transform: scaleX(150)
+    }
+
+.form-field__textarea {
+    height: 150px
+}
+
+.font-weight-normal {
+    font-weight: 500 !important
+}
+
+.color-yellow {
+    color: #FFA300 !important
+}
+
+.button-style {
+    height: 45px;
+    background: #FFA300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFF
+}
+
+.news-title-item {
+    font-size: 18px !important
+}
+
+.form-control {
+    background: inherit !important
+}
+
+.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner:after, .hamburger.is-active .hamburger-inner:before {
+    background-color: #fff;
+}
+
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+    background-color: #fff;
+}
+
+.contact-number {
+    font-size: 24px;
+}
+
+.contact-number-2 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.breadcrumb {
+    background-color: #fff;
+    border-bottom: 1px dashed #aaa;
+}
+
+    .breadcrumb a {
+        color: rgba(0,0,0,.45);
+        -webkit-transition: color .3s;
+        transition: color .3s;
+    }
+
+.relation-news p {
+    font-size: 22px !important;
+    color: #00adef;
+    border-bottom: 3px solid #00adef;
+    line-height: 36px;
+    display: inline-block;
+}
+
+.not-found-hotline {
+    font-size: 24px;
+    line-height: 37px;
+    color: #00264E;
+}
+
+.customer-form-signup-title {
+    font-size: 36px;
+    color: #4D4444;
+}
+
+.customer-form-login-title {
+    font-size: 25px;
+    color: #4D4444;
+}
+
+.vmb-form-style .form-group label {
+    color: #2A2326;
+    margin-bottom: 0;
+}
+
+.vmb-form-style .form-group .form-control {
+    border: none;
+    padding: 0;
+    border-bottom: 1px solid #FFA300;
+    border-radius: 0;
+}
+
+.vmb-form-style .icheck-material-orange label:before {
+    border: 2px solid #FFA300 !important;
+}
+
+.vmb-form-style .subscribe-email label {
+    color: #837A76;
+    font-size: 18px;
+}
+
+.vmb-form-style .note {
+    font-size: 14px;
+}
+
+.hamburger.is-active:hover, .hamburger:hover {
+    opacity: 1 !important;
+}
+
+.account-dropdown .vmb-header-login::after {
+    display: none !important;
+}
+
+.account-dropdown .dropdown-item.active, .dropdown-item:active {
+    background-color: #FFA300;
+}
+
+.login-link {
+    font-size: 18px;
+    color: #4D4444;
+}
+
+.user-profile .user-info-email,
+.user-profile .user-info-time {
+    font-size: 14px;
+}
+
+.customer-order-tbl {
+    font-size: 14px;
+}
+
+.order-info {
+    font-size: 14px;
+}
+/*phan bai dang*/
+.anh{
+    color:#212529;
+    font-size:32px;
+    font-weight:500;
+    line-height:38px;
+    text-align:center;
+    width: 600px;
+    height: 399px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 20px;
+}
+.noidung{
+    padding-top: 20px;
+    color:#222222;
+    font-weight:700;
+    line-height:26px;
+    text-align:justify;
+    margin: 0 0 0 26px;
+}
+.check1{
+    margin-top: 20px;
+    width: 20px;
+    float: left;
+}
+.check2{
+    width: 20px;
+    float: left;
+    margin-left: 100px;
+}
+
+
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+    margin-left: auto;
+    margin-right: auto;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+/*the*/
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+.credit-card-box label.error {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
